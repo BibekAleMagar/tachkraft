@@ -24,7 +24,7 @@ A full-stack real estate platform built with **NestJS**, **React**, and **Postgr
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/BibekAleMagar/tachkraft.git
 cd techkraft
 ```
 
