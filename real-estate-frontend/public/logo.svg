@@ -1,0 +1,14 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="#4f46e5"></rect>
+
+  <!-- House Shape -->
+  <path d="M25 50 L50 28 L75 50 V72 C75 75 73 77 70 77 H30 C27 77 25 75 25 72 Z" fill="#ffffff"></path>
+
+  <!-- Door -->
+  <rect x="45" y="58" width="10" height="19" rx="2" fill="#4f46e5"></rect>
+
+  <!-- Window -->
+  <rect x="34" y="55" width="8" height="8" rx="1.5" fill="#4f46e5"></rect>
+  <rect x="58" y="55" width="8" height="8" rx="1.5" fill="#4f46e5"></rect>
+</svg>
