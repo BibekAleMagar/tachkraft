@@ -33,16 +33,16 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {links.map((link) => {
-                const isActive =
-                  pathname === link.href ||
-                  pathname.startsWith(`${link.href}/`);
-
                 return (
-                  <SidebarMenuItem
-                    key={link.name}
-                    className={`rounded ${isActive ? "bg-indigo-600 text-white hover:bg-indigo-600" : ""}`}
-                  >
-                    <SidebarMenuButton asChild>
+                  <SidebarMenuItem key={link.name}>
+                    <SidebarMenuButton
+                      asChild
+                      isActive={
+                        pathname === link.href ||
+                        pathname.startsWith(`${link.href}/`)
+                      }
+                      className="data-[active=true]:bg-indigo-600 data-[active=true]:text-white "
+                    >
                       <Link to={link.href}>
                         <link.icon />
                         <span>{link.name}</span>
