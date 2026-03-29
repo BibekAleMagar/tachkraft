@@ -4,7 +4,7 @@ import {
   BadRequestException,
 } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { Favourite, Property } from '@prisma/client';
+import { Favourite, Property } from '../generated/prisma';
 
 @Injectable()
 export class FavouritesService {
